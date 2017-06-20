@@ -1,3 +1,6 @@
+/*color rojo: #ea4749*/
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -11,12 +14,19 @@ body{
 	background-color: transparent;
 }
 
+.punto{
+	color: #ea4749;
+}
+.logo-navbar{
+	padding-left: 50%;
+	color: #000;
+}
 .navbar-default{
 	border: none;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-	border-bottom:2px solid red;
+	border-bottom:2px solid #ea4749;
 }
 
 .first-section img{
@@ -24,10 +34,26 @@ body{
 }
 
 .btn-default{
-	background-color: red;
+	background-color: #ea4749;
 	border: none;
 }
 
 .fa-search{
 	color: #fff;
+}
+
+.cajita{
+	position: relative;
+}
+
+.texto{
+	background-color: #ea4749;
+	color: #fff;
+	padding: 1% 7% 1% 3%;
+	position: absolute;
+	top:0	
+}
+
+.cajita-fotos{
+	margin-top: 6%;
 }
